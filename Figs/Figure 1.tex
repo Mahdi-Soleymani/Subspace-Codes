@@ -1,0 +1,76 @@
+% This file was created by matlab2tikz v0.0.5.
+% Copyright (c) 2008--2010, Nico Schlömer <nico.schloemer@ua.ac.be>
+% All rights reserved.
+%
+% The latest updates can be retrieved from
+%  http://win.ua.ac.be/~nschloe/content/matlab2tikz/
+% and
+%  http://www.mathworks.com/matlabcentral/fileexchange/22022 .
+% where you can also make suggestions and rate matlab2tikz.
+
+\begin{tikzpicture}
+
+% defining custom colors
+\definecolor{mycolor1}{rgb}{0.15,0.15,0.15}
+\definecolor{mycolor2}{rgb}{0,0.447,0.741}
+\definecolor{mycolor3}{rgb}{0.85,0.325,0.098}
+\definecolor{mycolor4}{rgb}{0.929,0.694,0.125}
+
+% Axis at [0.13 0.11 0.78 0.82]
+\begin{axis}[
+scale only axis,
+every outer x axis line/.append style={mycolor1},
+every x tick label/.append style={font=\color{mycolor1}},
+every outer y axis line/.append style={mycolor1},
+every y tick label/.append style={font=\color{mycolor1}},
+width=6.02778in,
+height=4.75417in,
+xmin=0, xmax=1,
+ymin=0, ymax=0.9,
+axis on top]
+
+\addplot [
+color=mycolor2,
+solid
+]
+coordinates{
+ (1,0.277987)
+ (0.857143,0.555974)
+ (0.428571,0.833961)
+
+};
+
+\addplot [
+color=mycolor3,
+solid
+]
+coordinates{
+ (1,0.21799)
+ (0.909091,0.435981)
+ (0.636364,0.653971)
+ (0.181818,0.871962)
+
+};
+
+\addplot [
+color=mycolor4,
+solid
+]
+coordinates{
+ (1,0.0456943)
+ (0.990099,0.0913885)
+ (0.960396,0.137083)
+ (0.910891,0.182777)
+ (0.841584,0.228471)
+ (0.752475,0.274166)
+ (0.643564,0.31986)
+ (0.514851,0.365554)
+ (0.366337,0.411248)
+ (0.19802,0.456943)
+ (0.00990099,0.502637)
+
+};
+
+\end{axis}
+
+\end{tikzpicture}
